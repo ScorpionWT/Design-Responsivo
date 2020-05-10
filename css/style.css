@@ -61,11 +61,12 @@ img{
     left: 0;
 }
 .btn-close{
-    font-size: 3em;
+    font-size: 2.5em;
     color: #fff;
     float: right;
     cursor: pointer;
     margin-right: 5%;
+    font-weight: 700;
 }
 .menu ul{
     width: 100%;
@@ -129,4 +130,39 @@ img{
     border-radius: 10px;
     background-color: #fff;
     color: #130400;
+}
+
+/*SERVIÇOS*/
+
+.servicos{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+.servico{
+    width: 100%;
+    background-color: #fff;
+    text-align: left;
+    border-radius: 7px;
+    margin-bottom: 3%;
+}
+.servico img{border-radius: 5px 5px 0 0;}
+.inner{
+    padding: 7%;
+    text-align: justify;
+}
+.inner a{
+    font-size: 1.5em;
+    color: #130400;
+    font-weight: 700;
+}
+.inner h4{
+    font-size: 1.2em;
+    color: #130400;
+    margin-top: 2%;
+}
+.inner p{
+    margin-top: 6%;
+    color: #130400;
+    line-height: 1.5em;
 }
